@@ -1,11 +1,11 @@
-Run API Tests
+## Run API Tests
 
 cd API-Tests
 npm install
 npx playwright test
 
 
-Run UI Tests
+##Run UI Tests
 
 cd UI-Tests
 npm install
