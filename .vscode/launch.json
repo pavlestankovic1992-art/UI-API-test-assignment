@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run WDIO UI Tests",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/UI-Tests/node_modules/@wdio/cli/bin/wdio.js",
+      "args": ["run", "wdio.conf.ts", "--debug"],
+      "cwd": "${workspaceFolder}/UI-Tests",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**", "**/node_modules/**"]
+    }
+  ]
+}
