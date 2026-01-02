@@ -1,16 +1,19 @@
-## Run API Tests
+## Run API tests
 
+```bash
 cd API-Tests
 npm install
 npx playwright test
+```
 
+## Run UI Tests
 
-##Run UI Tests
-
+```bash
 cd UI-Tests
 npm install
 npx wdio run wdio.conf.ts
+```
 
-* UI test follow the Page Object pattern
-* API tests validate response structure and internal consistency
-* Test are designed to reflect real user bahaivior and API usage
+- UI tests follow the Page Object pattern
+- API tests validate response structure and internal consistency
+- Tests are designed to reflect real user behavior and API usage
